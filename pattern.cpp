@@ -3,9 +3,14 @@ using namespace std;
 
 int main()
 {
-    int x,y;
+    int x,y,z;
+    z=1;
     for (x=1;x<=3;x++)
     {
-        
+      for(y=1;y<=6;y++)
+      {
+        cout<<(char)(64+y);
+      }
+      cout<<endl;
     }
 }
